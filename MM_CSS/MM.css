@@ -1,0 +1,69 @@
+body{
+    background-image: url(../image/bgtexture.jpg);
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.custom-gutter{
+    padding-left: ;
+    padding-right: ;
+}
+.cat-top{
+    padding-left: 2%;
+    
+}
+
+
+.title{
+    background-color: white;
+    color: #5F002B;
+    
+}
+.hero{
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+    background-image: url("../image/cateringHero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cat-img{
+   
+    
+   
+    
+}
+.cat-text{
+    
+    background-color: white;
+    color: #5F002B;
+    font-size: 78.3%;
+    padding-top:2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.cat-gal1{
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+    background-image: url("../image/catering1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cat-gal2{
+    width: 100%;
+    height: auto;
+    
+    background-image: url("../image/catering2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cat-gal3{
+    width: 100%;
+    height: auto;
+    padding-bottom: 45%;
+    background-image: url("../image/catering3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
