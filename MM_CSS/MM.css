@@ -4,13 +4,13 @@ body{
     margin-right: 8%;
     
 }
-.custom-gutter{
-    padding-left: ;
-    padding-right: ;
-}
-.cat-top{
-    padding-left: 2%;
-    
+
+
+@font-face{
+    font-family: 'Montauk';
+    src: url(../Fonts/Montauk-Regular.otf);
+    font-style: normal;
+    font-weight: 100;
 }
 
 
@@ -21,34 +21,32 @@ body{
 }
 .hero{
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-bottom: 35%;
     background-image: url("../image/cateringHero.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
-.cat-img{
-   
-    
-   
-    
-}
+
 .cat-text{
     
     background-color: white;
     color: #5F002B;
-    font-size: 78.3%;
-    padding-top:2.5%;
+    font-size: 100.3%;
+    padding-top: 2.5%;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 2.5%;
+    font-family: Montauk;
+    
 }
 
 .cat-gal1{
     width: 100%;
     height: auto;
-    padding-bottom: 35%;
+    padding-bottom: 25%;
     background-image: url("../image/catering1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .cat-gal2{
@@ -62,8 +60,19 @@ body{
 .cat-gal3{
     width: 100%;
     height: auto;
-    padding-bottom: 45%;
+    
     background-image: url("../image/catering3.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*
+Photos
+*/
+.photo-img{
+  border: white 10px solid;
+ margin-bottom: 5%;
+}
+.photo-row{
+    
 }
