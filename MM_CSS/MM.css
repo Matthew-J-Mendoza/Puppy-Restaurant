@@ -17,7 +17,7 @@ body{
 .title{
     background-color: white;
     color: #5F002B;
-    
+    font-family: 'Fugaz One', cursive;
 }
 .hero{
     width: 100%;
@@ -27,7 +27,10 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+.fugaz{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
 .cat-text{
     
     background-color: white;
@@ -73,6 +76,16 @@ Photos
   border: white 10px solid;
  margin-bottom: 5%;
 }
-.photo-row{
-    
+
+a{
+    color: #5F002B;
+}
+
+a:hover{
+    color: #5F002B;
+}
+
+.Footer-text{
+    font-family: Montauk;
+    color: #5F002B;
 }
