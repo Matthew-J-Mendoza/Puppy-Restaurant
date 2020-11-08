@@ -1,0 +1,71 @@
+body{
+    background-image: url("../images/bgtexture.jpg");
+}
+
+.homeHero{
+    background-image: url("../images/homeHero.jpg");
+    height:550px;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.cards{
+display: flex;
+justify-content: space-between;
+min-width: fit-content;
+overflow: hidden;
+}
+
+
+.fugazeRegFont{
+   font-family:'Fugaz One', cursive;
+   color:#5F002B;
+}
+.muzzlesSandwichTitle{
+    font-size: 330%;
+}
+.muzzlesSandwichText{
+ font-size: 99%;
+ display: flex;
+ justify-content: center;
+ margin-left: 5%;
+ margin-right: 8%;
+
+}
+.muzzlesSandwichImage{
+    display: flex;
+ 
+}
+.tripleImage{
+    display: flex;
+    margin-top:10%;
+   
+}
+.ourMenuBG{
+    background-color: #FFFFFF;
+    width:1200px;
+}
+.ourMenuCardBG{
+    background-color: transparent;
+    
+}
+.menuImagesSize{
+    height:200px;
+}
+
+.list-group{
+    height:550px;
+}
+.Footer-text{
+    font-family: Montauk;
+    color: #5F002B;
+}
+.foodTitle{
+    display: inline-block;
+}
+.prices{
+    display:inline-block;
+   margin-left: 20%;
+    
+}
