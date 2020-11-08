@@ -1,0 +1,54 @@
+.dingus{
+    color: orange;
+}
+@font-face{
+    font-family: 'Montauk';
+    src: url("../Montauk-Regular/Montauk-Regular.otf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+a{
+    color: #5F002B;
+}
+a:hover{
+    color: #8d335b;
+}
+
+
+body{
+    background-image: url("../image/bgtexture.jpg");
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+.textureMe{
+    background-image: url("../image/bgtexture.jpg");
+}
+.white{
+    background-color: white;
+    
+}
+.cardSpacing{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 20px;
+}
+
+
+.montaukF{
+    font-family: Montauk;
+    color: #5F002B;
+    font-size: 15px;
+}
+
+.fugazBigTitle{
+
+}
+.fugazTitle{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+.fugazBtns{
+    
+}
