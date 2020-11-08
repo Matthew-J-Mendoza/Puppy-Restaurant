@@ -7,86 +7,93 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
 
     <title>Menu</title>
   </head>
   <body>
-    <div class="container d-flex justify-content-center">
-        <div class="row ourMenuBG">
+    <div class="container-fluid d-flex justify-content-center ourMenuBG mb-5">
+        <div class="row ">
             <div class="col">
                 <h1 class="d-flex justify-content-center fugazeRegFont">Our Menu</h1>
             </div>
         </div>
     </div>
-    <br>
+    
     <div class="container d-flex justify-content-center ourMenuCardBG">
         <div class="row">
             <div class="col-6">
-                <div class="card" style="min-width: fit-content;">
-                    <img class="card-img-top menuImagesSize" src="../images/menubeef.jpg" alt="Card image cap">
-                    <div class="card-body">
+               <div class="row">
+                 <div class="col-12">
+                  <div class="card cards" style="min-width: fit-content;">
+                    <img class="card-img-top menuImagesSize" src="../image/menubeef.jpg" alt="Card image cap">
+                    <div class="card-body cards">
                       <h4 class="card-title fugazeRegFont">Sandwiches</h4>
                       <p class="card-text">All sandwiches come with an side of crispy fries</p>
                     </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item"><h2 class="foodTitle">Sizzling Steak Sandwich</h2><p class="prices">15.99</p><p>Open faced steak sandwich with grilled belle peppers and fried onions.</p></li>
-                      <li class="list-group-item">Tenderloin Sliders <p>Ribeye beef sliders with horseradish cream and blackberry bbq.</p></li>
-                      <li class="list-group-item">Classic Chicken Panini<p>Grilled chicken with Monterey Jack, romaine lettuce, tomato, and cilantro.</p></li>
-                      <li class="list-group-item">Smoked Turkey Club<p>Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p></li>
-                      <li class="list-group-item">Tuna Sandwich<p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p></li>
-                    </ul>
+                    <div class="col-6">
+                      <h2>Sizzling steak Sandwich</h2>
+                      <p>Just for test</p>
+                    </div>
+                    <div class="col-12">
+                      <p class="text-right">$15.00</p>
+                    </div>
                   </div>
+                 </div>
+               </div>
             </div>
             <div class="col-6">
-                <div class="card" style="min-width: fit-content;">
-                    <img class="card-img-top menuImagesSize" src="../images/menuseafood.jpg" alt="Card image cap">
+                <div class="card cards" style="min-width: fit-content;">
+                    <img class="card-img-top menuImagesSize" src="../image/menuseafood.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title fugazeRegFont">Seafood</h4>
                       <p class="card-text">All seafood comes with a side of rice pilof and grilled vegetables.</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Honey Shrimp Skewers <p class="prices">15.99</p><p>Ten honey glazed shrimps with sesame seed and rosemary.</p></li>
-                      <li class="list-group-item">Grilled Salmon<p>Salmon grilled in a lime butter sauce.</p></li>
-                      <li class="list-group-item">Grilled Tilapia<p>A whole grilled tilapia cooked with smoked paprika.</p></li>
-                      <li class="list-group-item">Parmesan Fish Sticks<p>Sliced salmon in a parmesan breading served with a lemon aioli tartar sauce.</p></li>
+                      <li class="list-group-item"><p class="foodTitle">Honey Shrimp Skewers</p><p class="seaPrice1">15.99</p><p class="foodDescription">Ten honey glazed shrimps with sesame seed and rosemary.</p></li>
+                      <li class="list-group-item"><p class="foodTitle">Grilled Salmon</p><p class="seaPrice2">15.99</p><p class="foodDescription">Salmon grilled in a lime butter sauce.</p></li>
+                      <li class="list-group-item"><p class="foodTitle">Grilled Tilapia</p><p class="seaPrice3">15.99</p><p class="foodDescription">A whole grilled tilapia cooked with smoked paprika.</p></li>
+                      <li class="list-group-item"><p class="foodTitle">Parmesan Fish Sticks</p><p class="seaPrice4">15.99</p><p class="foodDescription">Sliced salmon in a parmesan breading served with a lemon aioli tartar sauce.</p></li>
+                      <li class="list-group-item"></li>
                     </ul>
                   </div>
             </div>
         </div>
     </div>
 </br>
+</br>
 <div class="container d-flex justify-content-center ourMenuCardBG">
   <div class="row">
     <div class="col-6">
         <div class="card" style="min-width: fit-content;">
-            <img class="card-img-top menuImagesSize" src="../images/menubeef.jpg" alt="Card image cap">
+            <img class="card-img-top menuImagesSize" src="./image/menumeat.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title fugazeRegFont">On the grill</h4>
               <p class="card-text">Served with corn,cheddar biscuits, and your choice of coleslaw or potato salad.</p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Baby Back - Full Rack<p>A full Rack of pork babyback ribs, grilled and glazed with blackberry bbq.</p></li>
-              <li class="list-group-item">Baby Back - Half Rack<p>A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</p></li>
-              <li class="list-group-item">Boneless Ribeye<p>A three inch thick boneless ribeye grilled in a rosemary rub and butter</p></li>
-              <li class="list-group-item">Smoked Turkey Club<p>Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p></li>
-              <li class="list-group-item">Tuna Sandwich<p>Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p></li>
+              <li class="list-group-item"><p class="foodTitle">Baby Back - Full Rack</p><p class="grillPrice1">15.99</p><p class="foodDescription">A full Rack of pork babyback ribs, grilled and glazed with blackberry bbq.</p></li>
+              <li class="list-group-item"><p class="foodTitle">Baby Back - Half Rack</p><p class="grillPrice2">15.99</p><p class="foodDescription">A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</p></li>
+              <li class="list-group-item"><p class="foodTitle">Boneless Ribeye</p><p class="grillPrice3">15.99</p><p class="foodDescription">A three inch thick boneless ribeye grilled in a rosemary rub and butter</p></li>
+              <li class="list-group-item"><p class="foodTitle">Smoked Turkey Club</p><p class="grillPrice4">15.99</p><p class="foodDescription">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p></li>
+              <li class="list-group-item"><p class="foodTitle">Tuna Sandwich</p><p class="grillPrice5">15.99</p><p class="foodDescription">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p></li>
             </ul>
           </div>
     </div>
     <div class="col-6">
         <div class="card" style="min-width: fit-content;">
-            <img class="card-img-top menuImagesSize" src="../images/menuseafood.jpg" alt="Card image cap">
+            <img class="card-img-top menuImagesSize" src="./image/menudesserts.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title fugazeRegFont">Desserts</h4>
               <p class="card-text">A shot of esspresso can be added to any dessert for an additional $2.</p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Double Walnut Brownies<p>Ten honey glazed shrimps with sesame seed and rosemary.</p></li>
-              <li class="list-group-item">Cheese Cake with Chocolate Sauce<p>Salmon grilled in a lime butter sauce.</p></li>
-              <li class="list-group-item">Triple Chocolate Brownie<p>A whole grilled tilapia cooked with smoked paprika.</p></li>
-              <li class="list-group-item">House Made Shaved Gelato and Cookies<p>Grilled peaches in cinnamon and brown sugar with ice cream.</p></li>
-              <li class="list-group-item">House Made Shaved Gelato and Cookies<p>Grilled peaches in cinnamon and brown sugar with ice cream.</p></li>
+              <li class="list-group-item"><p class="foodTitle">Double Walnut Brownies</p><p class="dessertPrice1">15.99</p><p class="foodDescription">Ten honey glazed shrimps with sesame seed and rosemary.</p></li>
+              <li class="list-group-item"><p class="foodTitle">Cheese Cake with Chocolate Sauce</p><p class="dessertPrice2">15.99</p><p class="foodDescription">Salmon grilled in a lime butter sauce.</p></li>
+              <li class="list-group-item"><p class="foodTitle">Triple Chocolate Brownie</p><p class="dessertPrice3">15.99</p><p class="foodDescription">A whole grilled tilapia cooked with smoked paprika.</p></li>
+              <li class="list-group-item"><p class="foodTitle">House Made Shaved Gelato and Cookies</p><p class="dessertPrice4">15.99</p><p class="foodDescription">Grilled peaches in cinnamon and brown sugar with ice cream.</p></li>
+              <li class="list-group-item"><p class="foodTitle">House Made Shaved Gelato and Cookies</p><p class="dessertPrice5">15.99</p><p class="foodDescription">Grilled peaches in cinnamon and brown sugar with ice cream.</p></li>
             </ul>
           </div>
     </div>
@@ -104,20 +111,7 @@
     </div>
   </div>
 </div>
-<div class="container-fluid d-lg-none my-5">
-  <div class="row">
-    <div class="col-12 text-center">
-      <img src="../images/menudesserts.jpg" alt="" width="30%">
-    </div>
-    <div class="col-12 Footer-text text-center">
-      <p>1357 Mutt Street, Rottweiler CA. 12345</p>
-      <p>Phone: 123-456-7890</p>
-    </div>
-    <div class="col-12 Footer-text text-center">
-      <p>Copyright © Muzzles Restaurant</p>
-    </div>
-  </div>
-</div>
+
 
 
     <!-- Optional JavaScript -->

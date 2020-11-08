@@ -1,35 +1,39 @@
 body{
-    background-image: url("../images/bgtexture.jpg");
+    background-image: url("../image/bgtexture.jpg");
 }
 
 .homeHero{
-    background-image: url("../images/homeHero.jpg");
-    height:550px;
+    background-image: url("../image/homeHero.jpg");
+    padding-bottom: 30%;
+    max-width: 100%;
     display: flex;
     background-size: cover;
     overflow: hidden;
 }
 
-.cards{
-display: flex;
-justify-content: space-between;
-min-width: fit-content;
-overflow: hidden;
+.homeSingle{
+    background-image: url("../image/homeSingle.jpg");
+    background-size: 115%;
+    background-repeat: no-repeat;
 }
 
 
 .fugazeRegFont{
-   font-family:'Fugaz One', cursive;
+    font-size:200%;
+   font-family:'Fugaz One', regular;
    color:#5F002B;
 }
 .muzzlesSandwichTitle{
     font-size: 330%;
+    font-family:'Fugaz One', cursive;
+    color: #5F002B;
+    
 }
 .muzzlesSandwichText{
  font-size: 99%;
+ color:#5F002B;
  display: flex;
  justify-content: center;
- margin-left: 5%;
  margin-right: 8%;
 
 }
@@ -37,17 +41,26 @@ overflow: hidden;
     display: flex;
  
 }
+.muzzlesSandwichCard{
+    width:350%;
+   margin-left: -67%;
+    
+    
+}
 .tripleImage{
-    display: flex;
+    display:flex;
+    image:cover;
     margin-top:10%;
+    margin-right: -10%;
    
 }
 .ourMenuBG{
     background-color: #FFFFFF;
-    width:1200px;
+    
 }
 .ourMenuCardBG{
     background-color: transparent;
+    max-width: 100%;
     
 }
 .menuImagesSize{
@@ -64,8 +77,84 @@ overflow: hidden;
 .foodTitle{
     display: inline-block;
 }
-.prices{
-    display:inline-block;
-   margin-left: 20%;
-    
+.foodDescription{
+    font-size: 75%;
+}
+.sanPrice1{
+display: inline-block;
+margin-left: 50%;
+}
+
+.sanPrice2{
+    display: inline-block;
+    margin-left: 59%;
+}
+
+.sanPrice3{
+    display: inline-block;
+    margin-left: 52%;
+}
+.sanPrice4{
+    display: inline-block;
+    margin-left: 54%;
+}
+.sanPrice5{
+    display: inline-block;
+    margin-left: 61%;
+}
+.seaPrice1{
+    display: inline-block;
+    margin-left: 50%;
+}
+.seaPrice2{
+    display: inline-block;
+    margin-left: 62%;
+}
+.seaPrice3{
+    display: inline-block;
+    margin-left: 63%;
+}
+.seaPrice4{
+    display: inline-block;
+    margin-left: 52%;
+}
+.grillPrice1{
+    display: inline-block;
+    margin-left: 52%;
+}
+.grillPrice2{
+    display: inline-block;
+    margin-left: 51%;
+}
+.grillPrice3{
+    display: inline-block;
+    margin-left: 59%;
+}
+.grillPrice4{
+    display: inline-block;
+    margin-left: 53%;
+}
+.grillPrice5{
+    display: inline-block;
+    margin-left: 61%;
+}
+.dessertPrice1{
+    display: inline-block;
+    margin-left: 47%;
+}
+.dessertPrice2{
+    display: inline-block;
+    margin-left: 31%;
+}
+.dessertPrice3{
+    display: inline-block;
+    margin-left: 46%;
+}
+.dessertPrice4{
+    display: inline-block;
+    margin-left: 23%;
+}
+.dessertPrice5{
+    display: inline-block;
+    margin-left: 23%;
 }
