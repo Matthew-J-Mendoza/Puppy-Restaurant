@@ -92,6 +92,7 @@ a:hover{
 About us
 */
 
+
 .dingus{
     color: orange;
 }
@@ -115,4 +116,107 @@ About us
 .fugazTitle{
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
+}
+/*
+Index and menu page
+*/
+
+.indexFormat{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.indexBackground{
+    background-image: url("../image/bgtexture.jpg");
+}
+
+.homeHero{
+    background-image: url("../image/homeHero.jpg");
+    padding-bottom: 30%;
+    max-width: 100%;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+}
+
+ 
+
+.homeSingle{
+    background-image: url("../image/homeSingle.jpg");
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+
+.fugazeRegFont{
+    font-size:200%;
+   font-family:'Fugaz One', regular;
+   color:#5F002B;
+}
+.montaukRegFont{
+    font-family:'Montauk', regular;
+    color:#5F002B;
+}
+.transparentFont{
+    color:transparent
+}
+.muzzlesSandwichTitle{
+    font-size: 330%;
+    font-family:'Fugaz One', cursive;
+    color: #5F002B;
+    
+}
+.muzzlesSandwichText{
+
+ color:#5F002B;
+
+
+}
+.muzzlesSandwichImage{
+    display: flex;
+ 
+}
+.muzzlesSandwichCard{
+    width:350%;
+   margin-left: -67%;
+    
+    
+}
+.tripleImage{
+    display:flex;
+    object-fit:cover;
+    margin-top:10%;
+    margin-right: -10%;
+   
+}
+.ourMenuBG{
+    background-color: #FFFFFF;
+    
+}
+.ourMenuCardBG{
+    background-color: transparent;
+    max-width: 100%;
+    
+}
+.menuImagesSize{
+    height:200px;
+}
+
+.list-group{
+    height:550px;
+}
+.Footer-text{
+    font-family: Montauk;
+    color: #5F002B;
+}
+.foodTitle{
+    display: inline-block;
+}
+.foodDescription{
+    font-size: 75%;
+}
+.menuText{
+    font-size:100%;
+}
+hr{
+    background-color: #980051;
 }
