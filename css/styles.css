@@ -1,7 +1,14 @@
-body{
+.webpageFormat{
     background-image: url("../image/bgtexture.jpg");
     margin-left: 8%;
     margin-right: 8%;
+}
+.indexFormat{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.indexBackground{
+    background-image: url("../image/bgtexture.jpg");
 }
 
 .homeHero{
@@ -95,7 +102,7 @@ body{
 hr{
     background-color: #980051;
 }
-font-face{
+@font-face{
     font-family: 'Montauk';
     src: url(../Fonts/Montauk-Regular.otf);
     font-style: normal;
