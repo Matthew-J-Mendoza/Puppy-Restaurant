@@ -1,5 +1,7 @@
 body{
     background-image: url("../image/bgtexture.jpg");
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .homeHero{
@@ -23,6 +25,13 @@ body{
    font-family:'Fugaz One', regular;
    color:#5F002B;
 }
+.montaukRegFont{
+    font-family:'Montauk', regular;
+    color:#5F002B;
+}
+.transparentFont{
+    color:transparent
+}
 .muzzlesSandwichTitle{
     font-size: 330%;
     font-family:'Fugaz One', cursive;
@@ -30,11 +39,9 @@ body{
     
 }
 .muzzlesSandwichText{
- font-size: 99%;
+
  color:#5F002B;
- display: flex;
- justify-content: center;
- margin-right: 8%;
+
 
 }
 .muzzlesSandwichImage{
@@ -80,84 +87,15 @@ body{
 .foodDescription{
     font-size: 75%;
 }
-.sanPrice1{
-display: inline-block;
-margin-left: 50%;
-}
-
-.sanPrice2{
-    display: inline-block;
-    margin-left: 59%;
-}
-
-.sanPrice3{
-    display: inline-block;
-    margin-left: 52%;
-}
-.sanPrice4{
-    display: inline-block;
-    margin-left: 54%;
-}
-.sanPrice5{
-    display: inline-block;
-    margin-left: 61%;
-}
-.seaPrice1{
-    display: inline-block;
-    margin-left: 50%;
-}
-.seaPrice2{
-    display: inline-block;
-    margin-left: 62%;
-}
-.seaPrice3{
-    display: inline-block;
-    margin-left: 63%;
-}
-.seaPrice4{
-    display: inline-block;
-    margin-left: 52%;
-}
-.grillPrice1{
-    display: inline-block;
-    margin-left: 52%;
-}
-.grillPrice2{
-    display: inline-block;
-    margin-left: 51%;
-}
-.grillPrice3{
-    display: inline-block;
-    margin-left: 59%;
-}
-.grillPrice4{
-    display: inline-block;
-    margin-left: 53%;
-}
-.grillPrice5{
-    display: inline-block;
-    margin-left: 61%;
-}
-.dessertPrice1{
-    display: inline-block;
-    margin-left: 47%;
-}
-.dessertPrice2{
-    display: inline-block;
-    margin-left: 31%;
-}
-.dessertPrice3{
-    display: inline-block;
-    margin-left: 46%;
-}
-.dessertPrice4{
-    display: inline-block;
-    margin-left: 23%;
-}
-.dessertPrice5{
-    display: inline-block;
-    margin-left: 23%;
+.menuText{
+    font-size:100%;
 }
 hr{
     background-color: #980051;
+}
+font-face{
+    font-family: 'Montauk';
+    src: url(../Fonts/Montauk-Regular.otf);
+    font-style: normal;
+    font-weight: 100;
 }
