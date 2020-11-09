@@ -1,8 +1,7 @@
-body{
-    background-image: url(../image/bgtexture.jpg);
+.webpageFormat{
+    background-image: url("../image/bgtexture.jpg");
     margin-left: 8%;
     margin-right: 8%;
-    
 }
 
 
