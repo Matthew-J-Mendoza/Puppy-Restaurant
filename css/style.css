@@ -93,3 +93,27 @@ a:hover{
 About us
 */
 
+.dingus{
+    color: orange;
+}
+
+.textureMe{
+    background-image: url("../image/bgtexture.jpg");
+}
+.white{
+    background-color: white;
+}
+.cardSpacing{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 20px;
+}
+.montaukF{
+    font-family: Montauk;
+    color: #5F002B;
+    font-size: 15px;
+}
+.fugazTitle{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
