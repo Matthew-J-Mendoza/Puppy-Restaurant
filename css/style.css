@@ -183,7 +183,7 @@ Index and menu page
 }
 .tripleImage{
     display:flex;
-    object-fit:cover;
+    /* object-fit:cover; */
     margin-top:10%;
     margin-right: -10%;
    
@@ -219,4 +219,22 @@ Index and menu page
 }
 hr{
     background-color: #980051;
+}
+
+/* .cat-text{
+    
+    background-color: white;
+    color: #5F002B;
+    font-size: 100.3%;
+    padding-top: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2.5%;
+    font-family: Montauk;
+    
+} */
+
+.msgText{
+    background-color: white;
+    font-size: 100%;
 }
